@@ -55,9 +55,6 @@ h1 {
     color: #26282a;
 }
 
-
-
-
 .feature-text {
     display: block;
     
@@ -66,6 +63,7 @@ padding: 0 !important;
   
   a.email-link span {
     position: relative;
+    font-family: "Times New Roman", Georgia, Times New Roman, serif !important; 
     font-size: 32px;
     z-index: 2;
     }
@@ -120,4 +118,39 @@ padding: 0 !important;
     background: #26282a;
     right: -5px;
     }
+
+@media only screen and (max-width: 768px) {
+    a.email-link span {
+        position: relative;
+        font-family: "Times New Roman", Georgia, Times New Roman, serif !important; 
+        font-size: 20px !important;
+        line-height: 1px !important;
+        z-index: 2;
+        }
     
+    .section-heading{
+        padding-top: 6% !important;
+        padding-bottom: 0 !important;
+        //font-family: "Raleway", Helvetica, Arial, sans-serif !important; 
+        font-family: "europa", Helvetica, Arial, sans-serif; 
+        font-style: normal; 
+        font-weight: 400; 
+        font-size: 15px !important; 
+        text-transform: uppercase; 
+        letter-spacing:2px;
+        color: #f06023;
+    }
+
+    .section-heading-b{
+        padding-top: 0% !important;
+        padding-bottom: 2% !important;
+        //font-family: "Raleway", Helvetica, Arial, sans-serif !important; 
+        font-family: "europa", Helvetica, Arial, sans-serif; 
+        font-style: normal; 
+        font-weight: 400; 
+        font-size: 15px !important; 
+        text-transform: uppercase; 
+        letter-spacing:2px;
+        color: #26282a;
+    }
+}

@@ -1,12 +1,23 @@
 @import '~sass/variables';
 @import '~sass/mixins';
 
+
 .section-showcase {
-    height:$showcase-height;
+    height:560px;
     background: url(/assets/img/ting.jpg) no-repeat bottom center;
     background-size: cover;
     //opacity: 0.8;
     margin-top: -62px;
+}
+
+@media only screen and (max-width: 768px) {
+    .section-showcase {
+        height:300px !important;
+        background: url(/assets/img/ting.jpg) no-repeat bottom center;
+        background-size: cover;
+        //opacity: 0.8;
+        margin-top: -20px;
+    }
 }
 
 .showcase-content{
@@ -42,7 +53,7 @@
     //font-family: "Raleway", Helvetica, Arial, sans-serif !important; 
     font-family: "acta-display", Georgia, Times New Roman, serif !important; 
     font-size: 85px !important; 
-    font-weight: 400;
+    font-weight: 320;
     line-height: 100px !important;
     letter-spacing: 2px !important; 
     color: #ffffff; 
@@ -56,6 +67,34 @@
     font-weight: 300; 
 }
 
+@media only screen and (max-width: 768px) {
+    .text-title{
+        vertical-align: middle;
+        padding-top: 5% !important;
+        padding-bottom: 5%;
+    }
+    
+    .text-title h1 { 
+        //font-family: "Raleway", Helvetica, Arial, sans-serif !important; 
+        font-family: "acta-display", Georgia, Times New Roman, serif !important; 
+        text-align: center;
+        font-size: 34px !important; 
+        font-weight: 400;
+        line-height: 40px !important;
+        letter-spacing: 1px !important; 
+        color: #ffffff; 
+        text-shadow: 3px 2px 2px #000000;
+      }
+    
+    .about-me-text{
+        padding: 0 !important;
+        font-family: "Times New Roman", Georgia, Times New Roman, serif !important; 
+        font-size: 18px !important;
+        color:#26282a;
+        font-style: normal; 
+        font-weight: 300; 
+    }  
+}
 
 /* Search box */
 .search{
