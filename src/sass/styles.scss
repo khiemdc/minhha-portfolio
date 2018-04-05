@@ -1,0 +1,123 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+
+@import '~sass/variables';
+@import '~sass/mixins';
+
+
+body {
+    //background: url('/assets/ting.png') no-repeat;
+    background-size:cover;
+    background-position: 0 60%;
+    //color:#ffffff;
+}
+
+
+
+h1 {
+    font-weight:bold;
+    font-size:3.5em;
+}
+
+.hero-img {
+    width:80%;
+}
+
+.section-heading{
+    padding-top: 10% !important;
+    padding-bottom: 0 !important;
+    //font-family: "Raleway", Helvetica, Arial, sans-serif !important; 
+    font-family: "europa", Helvetica, Arial, sans-serif; 
+    font-style: normal; 
+    font-weight: 400; 
+    font-size: 15px !important; 
+    text-transform: uppercase; 
+    letter-spacing:2px;
+    color: #f06023;
+}
+
+.section-quote{
+    background:#f06023;
+    color: #ffffff; 
+    padding: 50px 0 30px 0;
+    border: (2px, $primary-color, bottom);
+}
+
+.section-heading-b{
+    padding-top: 5% !important;
+    padding-bottom: 3% !important;
+    //font-family: "Raleway", Helvetica, Arial, sans-serif !important; 
+    font-family: "europa", Helvetica, Arial, sans-serif; 
+    font-style: normal; 
+    font-weight: 400; 
+    font-size: 15px !important; 
+    text-transform: uppercase; 
+    letter-spacing:2px;
+    color: #26282a;
+}
+
+
+
+
+.feature-text {
+    display: block;
+    
+padding: 0 !important;
+  }
+  
+  a.email-link span {
+    position: relative;
+    font-size: 32px;
+    z-index: 2;
+    }
+    
+    a.email-link:before {
+        content: '';
+        position: absolute;
+        display: block;
+        top: 0;
+        left: 0;
+        width: 0;
+        height: 100%;
+        background: #171717;
+        transition: width 400ms ease-out;
+        z-index: 1;
+    }
+    
+    a.email-link:hover:before {
+    width: 100%;
+    right: -5px;
+    }
+
+
+    a.white-text-link {
+        position: relative;
+        display: inline-block;
+        margin-left: -15px;
+        padding: 0px 20px 0px 15px;
+        background: none;
+    }
+    
+    a.white-text-link span {
+        position: relative;
+        z-index: 2;
+    }
+    
+    a.white-text-link:before {
+        content: '';
+        position: absolute;
+        display: block;
+        top: 50%;
+        right: 0;
+        width: 30%;
+        height: 1px;
+        background: white;
+        transition: 300ms ease-out;
+        z-index: 20;
+    }
+    
+    a.white-text-link:hover:before {
+    width: 100%;
+    background: #26282a;
+    right: -5px;
+    }
+    

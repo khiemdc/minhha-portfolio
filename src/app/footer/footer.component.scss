@@ -1,0 +1,46 @@
+@import '~sass/variables';
+@import '~sass/mixins';
+
+/* Footer */
+
+.footer-main{
+	background-color: #161717;
+	//@include add-border(5px, $secondary-color,top);
+	min-height:200px;
+	padding:30px 0;
+	z-index:100;
+	
+	a{
+		color:#666666;
+	}
+}
+    .list-unstyled {
+        padding: 0;
+        list-style: none;
+      }
+      .list-inline {
+        padding: 0;
+        list-style: none;
+                
+      li {
+        display: inline-block;
+        padding-right: 5px;
+        padding-left: 5px;
+       }
+      }
+      
+      #to-top {
+        //display: none;
+        position: fixed;
+        bottom: 5px;
+        right: 5px;
+      }
+
+
+      .semibold { 
+          font-family: "europa", Helvetica, Arial, sans-serif !important; 
+          font-style: normal; 
+          font-size: 12px;
+          color:#666666;
+          font-weight: 300; 
+        }
