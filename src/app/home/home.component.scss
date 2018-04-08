@@ -4,10 +4,11 @@
 
 .section-showcase {
     height:560px;
-    background: url(/assets/img/ting.jpg) no-repeat bottom center;
+    background: url(/assets/images/ting.jpg) no-repeat bottom center;
     background-size: cover;
     //opacity: 0.8;
     margin-top: -62px;
+    z-index: 3;
 }
 
 @media only screen and (max-width: 768px) {
@@ -66,6 +67,23 @@
     font-style: normal; 
     font-weight: 300; 
 }
+
+.section-heading-c{
+    padding-top: 1% !important;
+    padding-bottom: 2% !important;
+    font-family: "Open Sans", sans-serif;
+    //font-family: "Raleway", Helvetica, Arial, sans-serif !important; 
+    //font-family: "europa", Helvetica, Arial, sans-serif; 
+    //font-family: "acta-display", Georgia, Times New Roman, serif !important; 
+    font-style: normal; 
+    font-weight: 400; 
+    font-size: 28px !important; 
+    text-transform: none; 
+    text-align: center;
+    letter-spacing:2px;
+    color: #26282a;
+}
+
 
 @media only screen and (max-width: 768px) {
     .text-title{
@@ -247,8 +265,39 @@ color: #f06023 !important;
 transition: ease-out 0.2s;
 }
 
-.see-more { width: 0% !important; }
+//.see-more { width: 0% !important; }
 
 
-
-
+.cta-button {
+    border-radius: 5px;
+    //border: 1px solid #F5C453;
+    //border: 1px solid #F5C453;
+    padding: 1em 1.5em;
+    display: inline-block;
+    font-size: 14px !important;
+    color: #000000;
+    margin: 0 1em;
+    //margin-top: 1em;
+    margin-bottom: 2em;
+    min-width: 10em;
+    transition: all .25s ease; 
+    color:#000009;
+    letter-spacing:2px;
+    font-weight: 400;
+}
+    
+.cta-button:hover {
+    transform: scale(1.125);
+    transition: all .5s ease;
+    color: #f06023 !important;
+}
+  
+/*    
+.arrow-right:hover{
+    padding: 0 5px !important;
+    font-size: 55px;
+    font-weight: 200px;
+    margin-top: -30px !important;
+    color: #f06023 !important;
+}
+*/

@@ -29,7 +29,7 @@ h1 {
     font-family: "europa", Helvetica, Arial, sans-serif; 
     font-style: normal; 
     font-weight: 400; 
-    font-size: 15px !important; 
+    font-size: 18px !important; 
     text-transform: uppercase; 
     letter-spacing:2px;
     color: #f06023;
@@ -153,3 +153,139 @@ h1 {
         color: #26282a;
     }
 }
+
+.project {
+    background: #fff;
+    padding: 10px 0 80px 0 !important;
+  }
+
+  
+.project .img-fluid:hover{
+    opacity: 0.8;
+}
+
+.project .details h4 {
+  font-size: 16px;
+  font-weight: 700;
+  color: #333333;
+}
+
+
+/* Testimonials (Awards) Section
+  --------------------------------*/
+  #testimonials {
+    background: $light-color;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    opacity: 0.9;
+    padding: 20px 80px;
+  }
+  
+  #testimonials .profile {
+    text-align: center;
+ }
+  
+  #testimonials .profile .pic {
+    border-radius: 50%;
+    border: 6px solid #fff;
+    margin-bottom: 15px;
+    overflow: hidden;
+    height: 260px;
+    width: 260px;
+    
+  }
+  
+  .pic:hover {
+      opacity: 0.9;
+      transform: scale(1.025);
+      transition: all .25s ease;
+  }
+  
+  #testimonials .profile .pic img {
+    max-width: 100%;
+  }
+  
+  #testimonials .profile h4 {
+    font-weight: 700;
+    color: #03C4EB;
+    margin-bottom: 5px;
+  }
+  
+  #testimonials .profile span {
+    color: #333333;
+  }
+  
+  #testimonials .quote {
+    position: relative;
+    background: #fff;
+    padding: 30px 50px;
+    margin: 50px 20px;
+    font-size: 16px;
+    font-style: italic;
+    border-radius: 5px;
+  }
+  
+  #testimonials .quote b {
+    display: inline-block;
+    font-size: 22px;
+    left: -9px;
+    position: relative;
+    top: -8px;
+  }
+  
+  #testimonials .quote small {
+    display: inline-block;
+    right: -9px;
+    position: relative;
+    top: 4px;
+  }
+  
+  .cta-btn, .cta-btn:visited {
+    color:$accent-color;
+    border: 1px solid $accent-color;
+    padding: 5px 12px;
+    float: center;
+    border-radius:5px;
+    text-transform: capitalize !important; 
+}
+
+.cta-btn:hover {
+    background:$accent-color;
+    color:#ffffff;
+}
+
+  .see-more-buttom{
+      margin-left: 380px;
+      padding: 0 50px;
+  }
+
+  #box1{
+    height: 100vh;
+    width: 100%;
+    background-image: url(/assets/images/i1.jpg);
+    opacity: 0.9;
+    background-size: cover;
+    display: table;
+    background-attachment: fixed;
+}
+#box2{
+    height: 100vh;
+    width: 100%;
+    background-image: url(/assets/images/i2.jpg);
+    opacity: 0.9;
+    background-size: cover;
+    display: table;
+    background-attachment: fixed;
+}
+#box3{
+    height: 100vh;
+    width: 100%;
+    background-image: url(/assets/images/i3.jpg);
+    opacity: 0.9;
+    background-size: cover;
+    display: table;
+    background-attachment: fixed;
+}
+/*End of  Testimonials (Awards) Section */

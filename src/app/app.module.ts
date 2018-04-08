@@ -8,6 +8,8 @@ import { AppComponent } from './app.component';
 import { NavComponent } from './nav/nav.component';
 import { HomeComponent } from './home/home.component';
 import { FooterComponent } from './footer/footer.component';
+import { ProjectComponent } from './project/project.component';
+import { AwardComponent } from './award/award.component';
 
 
 @NgModule({
@@ -16,6 +18,8 @@ import { FooterComponent } from './footer/footer.component';
     NavComponent,
     HomeComponent,
     FooterComponent,
+    ProjectComponent,
+    AwardComponent
   ],
   imports: [
     BrowserModule,
