@@ -7,17 +7,17 @@
     background: url(/assets/images/ting.jpg) no-repeat bottom center;
     background-size: cover;
     //opacity: 0.8;
-    margin-top: -62px;
+    //margin-top: -62px;
     z-index: 3;
 }
 
 @media only screen and (max-width: 768px) {
     .section-showcase {
         height:300px !important;
-        background: url(/assets/img/ting.jpg) no-repeat bottom center;
+        background: url(/assets/images/ting.jpg) no-repeat bottom center;
         background-size: cover;
         //opacity: 0.8;
-        margin-top: -65px;
+        //margin-top: -65px;
     }
 }
 
@@ -104,6 +104,22 @@
         text-shadow: 3px 2px 2px #000000;
       }
     
+      .section-heading-c{
+        padding-top: 1% !important;
+        padding-bottom: 2% !important;
+        font-family: "Open Sans", sans-serif;
+        //font-family: "Raleway", Helvetica, Arial, sans-serif !important; 
+        //font-family: "europa", Helvetica, Arial, sans-serif; 
+        //font-family: "acta-display", Georgia, Times New Roman, serif !important; 
+        font-style: normal; 
+        font-weight: 400; 
+        font-size: 24px !important; 
+        text-transform: none; 
+        text-align: center;
+        letter-spacing:0px !important;
+        color: #26282a;
+    }
+
     .about-me-text{
         padding: 0 !important;
         font-family: "Times New Roman", Georgia, Times New Roman, serif !important; 
