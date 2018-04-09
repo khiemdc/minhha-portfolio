@@ -1,3 +1,6 @@
+@import '~sass/variables';
+@import '~sass/mixins';
+
 
 #hero {
     //background: url('/assets/img/ting.jpg') no-repeat bottom;
@@ -7,12 +10,14 @@
     margin: 0 0px;
   }
 
-.navbar-brand{
+
+  .navbar-brand{
     margin-top: 15px;
     //font-family: "europa", Helvetica, Arial, sans-serif !important;
     font-family: "acta-display", Georgia, Times New Roman, serif !important; 
     text-transform: none; 
     color: #000000 !important;
+    font-weight: 550;
 }
 
 .navbar-brand:hover{
@@ -36,7 +41,7 @@
               //font-family: "acta-display", Georgia, Times New Roman, serif !important; 
               font-style: normal;
               text-align: left !important; 
-              font-weight: 540;
+              //font-weight: 540;
               //border-bottom: 1px solid #3fa46a;
     box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
 
@@ -44,6 +49,7 @@
         transition: 0.5s ease;
         //background: #3fa46a;
         color: #000000!important;
+        font-weight: 550;
         text-decoration: none;
         //border-top: 4px solid #3fa46a;
         //border-bottom: 4px solid #3fa46a;
@@ -63,16 +69,45 @@
   
   
 
-  
-
-
-
-
 @media only screen and (max-width: 768px) {
-    .navbar {
-        background-color: #000009;
-        width:100%;
-        
+
+    .navbar-brand{
+        margin-top: 15px;
+        margin-bottom: 10px;
+        //font-family: "europa", Helvetica, Arial, sans-serif !important;
+        font-family: "acta-display", Georgia, Times New Roman, serif !important; 
+        text-transform: none; 
+        color: $light-color !important;
+        font-weight: 400;
     }
+    
+    .navbar-brand:hover{
+        color: #ffffff !important;
+        transform: scale(1.025);
+        transition: all .5s ease;
+    }
+
+    .navbar {
+        background-color: #000000 !important;
+        width:100%;
+    
+        .nav-link {
+            color:#ffffff !important;
+            margin: 0px !important;
+            padding: 5px 20px !important;
+            font-size: 10px !important;
+            font-weight: 300;
+        }
+    
+          .nav-link:hover {
+            margin-top: 0px !important;
+            color: #f06023 !important;
+            border: none !important;
+            
+            
+          }
+    }
+
+    
 }
   
